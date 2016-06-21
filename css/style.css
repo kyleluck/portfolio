@@ -1,0 +1,29 @@
+html, body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.jumbotron {
+  padding: 10px;
+}
+.self col {
+
+}
+.self-slice {
+}
+.circle {
+  background: #7C7287;
+  color: white;
+  border-radius: 50%;
+  width: 34%;
+  height: 83px;
+  display: table;
+  margin-bottom: 6px;
+  box-shadow: 0 10px 6px -6px #777;
+}
+.circle span {
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell;
+}
+.experience {
+  background: #9DC0BC;
+}
