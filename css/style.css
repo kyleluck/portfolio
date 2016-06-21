@@ -30,19 +30,20 @@ body {
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
 }
-.contact .col {
+.contact .contactlink {
   text-align: center;
 }
 a {
   color: black;
 }
-a:hover {
+a:hover, h3 {
   color: #00B7E6;
 }
 .talkbubble {
    width: 100%;
    padding: 5px;
    background: #00B7E6;
+   color: white;
    position: relative;
    -moz-border-radius:    10px;
    -webkit-border-radius: 10px;
@@ -59,7 +60,12 @@ a:hover {
    border-right: 29px solid #00B7E6;
    border-bottom: 13px solid transparent;
 }
-
+.row {
+  margin-bottom: 20px;
+}
+.footer .col h3 {
+  text-align: center;
+}
 /* colors to use:
 purple: #3A2E39
 orange: #FFBF69
