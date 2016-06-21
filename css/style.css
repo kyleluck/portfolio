@@ -2,7 +2,11 @@ html, body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 .jumbotron {
-  padding: 10px;
+  background-image: url("../images/kyle.png");
+  background-size: cover;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  height: 100vh;
 }
 .self col {
 
@@ -13,8 +17,8 @@ html, body {
   background: #7C7287;
   color: white;
   border-radius: 50%;
-  width: 34%;
-  height: 83px;
+  width: 96px;
+  height: 85px;
   display: table;
   margin-bottom: 6px;
   box-shadow: 0 10px 6px -6px #777;
@@ -25,7 +29,6 @@ html, body {
   display: table-cell;
 }
 .experience {
-  background: #9DC0BC;
 }
 .img-thumbnail {
   filter: grayscale(100%);
