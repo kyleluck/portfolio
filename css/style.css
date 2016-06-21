@@ -33,4 +33,23 @@ html, body {
 a {
   color: #00B7E6;
 }
-/* sunglasses color: #00B7E6 */
+.talkbubble {
+   width: 100%;
+   padding: 5px;
+   background: #00B7E6;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+.talkbubble:before {
+   content:"";
+   position: absolute;
+   right: 35%;
+   top: -19px;
+   width: 0;
+   height: 0;
+   border-top: 20px solid transparent;
+   border-right: 29px solid #00B7E6;
+   border-bottom: 13px solid transparent;
+}
