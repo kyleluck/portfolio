@@ -4,29 +4,14 @@ html, body {
 .jumbotron {
   background-image: url("../images/kyle.png");
   background-size: cover;
+  background-position: 50% 10%;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   height: 100vh;
 }
-.self col {
-
-}
-.self-slice {
-}
-.circle {
-  background: #7C7287;
-  color: white;
-  border-radius: 50%;
-  width: 96px;
-  height: 85px;
-  display: table;
-  margin-bottom: 6px;
-  box-shadow: 0 10px 6px -6px #777;
-}
-.circle span {
-  vertical-align: middle;
-  text-align: center;
-  display: table-cell;
+.jumbotron .container {
+  position: absolute;
+  bottom: 0;
 }
 .experience {
 }
