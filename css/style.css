@@ -27,3 +27,11 @@ html, body {
 .experience {
   background: #9DC0BC;
 }
+.img-thumbnail {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.img-thumbnail:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}

@@ -1,4 +1,5 @@
 $(function() {
+
   $('.self-slice').hide();
   $('.group1').fadeIn('slow');
   setTimeout(function() {
@@ -10,4 +11,5 @@ $(function() {
   setTimeout(function() {
     $('.group4').fadeIn('slow');
   }, 3000);
+
 });
