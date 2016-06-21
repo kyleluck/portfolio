@@ -12,4 +12,22 @@ $(function() {
     $('.group4').fadeIn('slow');
   }, 3000);
 
+  $('#home').click(function() {
+    $('html,body').animate({
+      scrollTop: $(".jumbotron").offset().top},
+      'slow');
+  });
+
+  $('#skills').click(function() {
+    $('html,body').animate({
+      scrollTop: $(".skills").offset().top},
+      'slow');
+  });
+
+  $('#projects').click(function() {
+    $('html,body').animate({
+      scrollTop: $(".projects").offset().top},
+      'slow');
+  });
+
 });
