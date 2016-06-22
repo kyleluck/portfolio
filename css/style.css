@@ -85,6 +85,12 @@ a:hover, h3 {
 .scrollToTop:hover{
 	text-decoration:none;
 }
+
+@media (max-width: 768px) {
+  .spacer {
+    margin-top: 40px;
+  }
+}
 /* colors to use:
 purple: #3A2E39
 orange: #FFBF69
