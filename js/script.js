@@ -8,6 +8,10 @@ $(function() {
     scrollToArea('.projects');
   });
 
+  $('#resume').click(function() {
+    scrollToArea('.resume');
+  });
+
   $('#contact').click(function() {
     scrollToArea('.contact');
   });
