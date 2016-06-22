@@ -57,8 +57,8 @@ a:hover, h3 {
    width: 0;
    height: 0;
    border-top: 20px solid transparent;
-   border-right: 29px solid #00B7E6;
-   border-bottom: 13px solid transparent;
+   border-right: 30px solid #00B7E6;
+   border-bottom: 3px solid transparent;
 }
 .row {
   margin-bottom: 20px;
