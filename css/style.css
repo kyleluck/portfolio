@@ -85,7 +85,9 @@ a:hover, h3 {
 .scrollToTop:hover{
 	text-decoration:none;
 }
-
+.footer i {
+  color: red;
+}
 @media (max-width: 768px) {
   .spacer {
     margin-top: 40px;
