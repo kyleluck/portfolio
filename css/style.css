@@ -70,10 +70,10 @@ a:hover, h3 {
 	font-weight: bold;
 	color: #444;
 	text-decoration: none;
-	position:fixed;
+	position: fixed;
 	bottom: 100px;
-	right:40px;
-	display:none;
+	right: 10px;
+	display: none;
 }
 .scrollToTop:hover{
 	text-decoration:none;
