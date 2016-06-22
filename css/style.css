@@ -79,7 +79,7 @@ a:hover, h3 {
 	text-decoration: none;
 	position: fixed;
 	bottom: 100px;
-	right: 10px;
+	right: 0px;
 	display: none;
 }
 .scrollToTop:hover{
