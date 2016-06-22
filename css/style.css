@@ -66,6 +66,18 @@ a:hover, h3 {
 .footer .col h3 {
   text-align: center;
 }
+.scrollToTop{
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	bottom: 100px;
+	right:40px;
+	display:none;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
 /* colors to use:
 purple: #3A2E39
 orange: #FFBF69
