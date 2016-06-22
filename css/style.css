@@ -63,8 +63,11 @@ a:hover, h3 {
 .row {
   margin-bottom: 20px;
 }
-.footer .col h3 {
+.footer .col h5 {
   text-align: center;
+  background: black;
+  color: white;
+  padding: 10px;
 }
 .scrollToTop{
 	font-weight: bold;
