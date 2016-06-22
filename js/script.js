@@ -30,6 +30,12 @@ $(function() {
       'slow');
   });
 
+  $('#contact').click(function() {
+    $('html,body').animate({
+      scrollTop: $(".contact").offset().top},
+      'slow');
+  });
+
   //Check to see if the window is top if not then display button
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 100) {

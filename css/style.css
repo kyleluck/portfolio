@@ -22,6 +22,10 @@ body {
 .nav > li > a:hover {
   background: #00B7E6;
 }
+.nav > li > a:focus {
+  background: #999;
+  outline: none;
+}
 .img-thumbnail {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
