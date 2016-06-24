@@ -75,7 +75,7 @@ h3 {
   padding: 20px 0;
 }
 .footer {
-  background: #666A73; /* was #333 */
+  background: #666A73;
 }
 .footer .col h5 {
   text-align: center;
@@ -96,6 +96,9 @@ h3 {
 }
 .footer i {
   color: #00B7E6;
+}
+.progress-bar {
+  background-color: #666A73;
 }
 @media (max-width: 768px) {
   .spacer {
