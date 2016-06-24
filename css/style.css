@@ -99,6 +99,7 @@ h3 {
 }
 .progress-bar {
   background-color: #666A73;
+  border-right: 4px solid #00B7E6;
 }
 @media (max-width: 768px) {
   .spacer {

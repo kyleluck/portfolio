@@ -43,7 +43,7 @@ $(function() {
   $(window).scroll(function() {
     if ($(this).scrollTop() > 400 && !stopAnimation) {
       animateProgressBars(true);
-    } 
+    }
   });
 
   function animateProgressBars(doAnimation) {
@@ -58,7 +58,7 @@ $(function() {
           if (currentPercentage >= animatePercentage) {
             clearInterval(progress);
           } else {
-            currentPercentage += 3;
+            currentPercentage += 1;
             thisBar.css('width', (currentPercentage) + '%');
           }
         }, 50);
