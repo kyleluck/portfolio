@@ -1,5 +1,6 @@
 html, body {
   font-family: 'Arimo', sans-serif;
+  color: #666A73;
 }
 body {
   padding-bottom: 10px;
@@ -40,7 +41,7 @@ body {
   text-align: center;
 }
 a {
-  color: #333;
+  color: #666A73;
 }
 a:hover, h3 {
   color: #00B7E6;
@@ -71,10 +72,13 @@ h3 {
 }
 .row {
   margin-bottom: 20px;
+  padding: 20px 0;
+}
+.footer {
+  background: #666A73; /* was #333 */
 }
 .footer .col h5 {
   text-align: center;
-  background: #333;
   color: white;
   padding: 10px;
 }
@@ -120,8 +124,13 @@ h3 {
   -o-transform: rotate(45deg);
 }*/
 .skills, .resume {
-  background: #333;
-  color: white;
+  /*background: #666A73;
+  color: white;*/
+  background: white;
+}
+.skills .col ul {
+  text-align: left;
+  display: inline-block;
 }
 @media (max-width: 768px) {
   .spacer {
