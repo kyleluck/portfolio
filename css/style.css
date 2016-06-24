@@ -40,7 +40,7 @@ body {
   text-align: center;
 }
 a {
-  color: black;
+  color: #333;
 }
 a:hover, h3 {
   color: #00B7E6;
@@ -71,13 +71,13 @@ a:hover, h3 {
 }
 .footer .col h5 {
   text-align: center;
-  background: black;
+  background: #333;
   color: white;
   padding: 10px;
 }
 .scrollToTop{
 	font-weight: bold;
-	color: #444;
+	color: #CCC;
 	text-decoration: none;
 	position: fixed;
 	bottom: 100px;
@@ -88,9 +88,9 @@ a:hover, h3 {
 	text-decoration:none;
 }
 .footer i {
-  color: red;
+  color: #00B7E6;
 }
-.curvedarrow {
+/*.curvedarrow {
   position: relative;
   width: 0;
   height: 0;
@@ -115,6 +115,10 @@ a:hover, h3 {
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
+}*/
+.skills, .resume {
+  background: #333;
+  color: white;
 }
 @media (max-width: 768px) {
   .spacer {
