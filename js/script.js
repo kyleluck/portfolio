@@ -58,7 +58,7 @@ $(function() {
           if (currentPercentage >= animatePercentage) {
             clearInterval(progress);
           } else {
-            currentPercentage += 1;
+            currentPercentage += 2;
             thisBar.css('width', (currentPercentage) + '%');
           }
         }, 50);
