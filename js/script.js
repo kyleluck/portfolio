@@ -69,14 +69,15 @@ $(function() {
   /* timeline js */
   function isElementInViewport(el) {
     var rect = el.getBoundingClientRect();
+    var rectHeight = rect.bottom - rect.top;
     return (
       rect.top >= 0 &&
       rect.left >= 0 &&
-      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.top <= (window.innerHeight || document.documentElement.clickHeight) &&
       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
   }
-  var items = document.querySelectorAll(".timeline li");
+  var items = document.querySelectorAll(".timeline .timeline-element");
 
   // code for the isElementInViewport function
 
