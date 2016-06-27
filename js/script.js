@@ -22,13 +22,28 @@ $(function() {
       'slow');
   }
 
-  //Check to see if the window is top if not then display button
+  //only animate progress bars once
+  var stopAnimation = false;
+
+  //timeline items to animate
+  var items = $(".timeline-element");
+
 	$(window).scroll(function(){
+    //Check to see if the window is top if not then display button
 		if ($(this).scrollTop() > 100) {
 			$('.scrollToTop').fadeIn();
 		} else {
 			$('.scrollToTop').fadeOut();
 		}
+
+    //animate progress bars
+    if ($(this).scrollTop() > 400 && !stopAnimation) {
+      animateProgressBars(true);
+    }
+
+    //animate timeline items if in view
+    checkTimelineItemsInView();
+
 	});
 
 	//Click event to scroll to top
@@ -36,15 +51,6 @@ $(function() {
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	});
-
-  //animate progress bars
-  var stopAnimation = false;
-
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 400 && !stopAnimation) {
-      animateProgressBars(true);
-    }
-  });
 
   function animateProgressBars(doAnimation) {
     if (doAnimation) {
@@ -66,7 +72,6 @@ $(function() {
     }
   }
 
-  /* timeline js */
   function isElementInViewport(el) {
     var rect = el.getBoundingClientRect();
     var rectHeight = rect.bottom - rect.top;
@@ -77,19 +82,14 @@ $(function() {
       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
   }
-  var items = document.querySelectorAll(".timeline .timeline-element");
 
-  // code for the isElementInViewport function
-
-  function callbackFunc() {
+  // check to see if timeline items are in view
+  function checkTimelineItemsInView() {
     for (var i = 0; i < items.length; i++) {
       if (isElementInViewport(items[i])) {
         items[i].classList.add("in-view");
       }
     }
   }
-
-  window.addEventListener("load", callbackFunc);
-  window.addEventListener("scroll", callbackFunc);
-
+  
 });
