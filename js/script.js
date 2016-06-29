@@ -74,11 +74,10 @@ $(function() {
 
   function isElementInViewport(el) {
     var rect = el.getBoundingClientRect();
-    var rectHeight = rect.bottom - rect.top;
     return (
       rect.top >= 0 &&
       rect.left >= 0 &&
-      rect.top <= (window.innerHeight || document.documentElement.clickHeight) &&
+      rect.top <= (window.innerHeight - (window.innerHeight * 0.2) || document.documentElement.clickHeight - (window.innerHeight * 0.2)) &&
       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
   }
@@ -91,5 +90,5 @@ $(function() {
       }
     }
   }
-  
+
 });
