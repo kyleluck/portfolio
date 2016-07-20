@@ -102,6 +102,10 @@ h3 {
   border-right: 4px solid #F45B69;
 }
 /* timeline */
+.timeline {
+  overflow: hidden;
+}
+
 .timeline .timeline-element {
   list-style-type: none;
   position: relative;
